@@ -43,3 +43,9 @@ The introductory presentation covers how to create the python environment for th
 However, this course was prepared under `python==3.10.4` with packages specified in `requirements.txt` file.
 
 ## License
+
+The course has been prepared by [Piotr Pasza Storożenko](https://pstorozenko.github.io/) from [Appsilon](http://appsilon.com/).
+It is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+Feel free to use these materials for your use, you just have to attribute the original author.
+
+Some exercise have been inspired by the exercises author had to solve while studying.
