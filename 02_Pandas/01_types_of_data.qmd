@@ -1,5 +1,5 @@
 ---
-title: "Python LevelUP: Data Science by Appsilon"
+title: "Introduction to Data Science in Python by Appsilon"
 subtitle: "Types of data in Data Science"
 author: "Piotr Pasza Storożenko@Appsilon"
 lang: "en"
@@ -111,7 +111,7 @@ For example we might be quering some APIs for diffent books by `isbn` code and g
       "firstname": "Storozenko"
     }
   ],
-  "title": "Python LevelUP: Data Science by Appsilon",
+  "title": "Introduction to Data Science in Python by Appsilon",
   "category": [
     "Non-Fiction",
     "Pure Fiction"
@@ -142,7 +142,7 @@ XML file format is similar to json, but has much more redundant signs, so it is 
       <element>Pure Fiction</element>
    </category>
    <isbn>123-456-222</isbn>
-   <title>Python LevelUP: Data Science by Appsilon</title>
+   <title>Introduction to Data Science in Python by Appsilon</title>
 </root>
 ```
 

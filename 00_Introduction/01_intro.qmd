@@ -1,5 +1,5 @@
 ---
-title: "Python LevelUP: Data Science by Appsilon"
+title: "Introduction to Data Science in Python by Appsilon"
 subtitle: "Course introduction"
 author: "Piotr Pasza Storożenko@Appsilon"
 lang: "pl"
