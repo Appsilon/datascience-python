@@ -8,7 +8,6 @@ format:
     self-contained: true
     # smaller: true
     theme: [dark]
-    logo: images/logo2.png
 editor_options: 
   markdown: 
     wrap: 99
