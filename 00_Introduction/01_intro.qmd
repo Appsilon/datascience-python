@@ -96,13 +96,13 @@ Source: [https://www.domo.com/learn/infographic/data-never-sleeps-9](https://www
 
 ## Who's a Data Scientist?
 
-Someone that simuntinesly:
+Someone who simuntinesly:
 
 1. Discusses with so called _bussiness_ the topic of required solutions.
 2. Based on provided and collected data creates solutions using programming skills.
-3. Delivers the results to _bussiness_ in a clear and interesing way.
+3. Delivers the results to the _bussiness_ in a clear and interesing way.
 
-Biznes mówi o **AI**, specjaliści raczej o **ML**...
+Bussiness talks about **AI**, experts preffer to say **ML**...
 
 ## Data Science Workflow
 
@@ -127,7 +127,7 @@ Source: [https://blog.dominodatalab.com/data-science-tools](https://blog.dominod
 2. `pandas` - working with data frames
 3. `matplotlib` and `plotly` - plotting data
 4. `scikit-learn` - introduction to machine learning
-5. `streamlit` - dashboards
+5. `streamlit`, `quarto`, `fastapi` - sharing your work
 
 ## Course plan
 
@@ -174,7 +174,7 @@ This might be also a relief when working on different projects during studying!
 After installing anaconda, you have to [clone this course repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), and move yourself in terminal into course repo.
 Then run:
 ```
-conda create -n appsilon-ds-course python -y
+conda create -n appsilon-ds-course python=3.10 -y
 conda activate appsilon-ds-course
 pip install -r requirements.txt
 ```
