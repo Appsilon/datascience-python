@@ -37,11 +37,6 @@ For every homework, there's provided solution in a separate directory.
 Note that solutions are not necessarily the best possible, but may present some interesting approach.
 Very often there are multiple ways you can approach the same problem. 
 
-## Python environment
-
-The introductory presentation covers how to create the python environment for this course.
-However, this course was prepared under `python==3.10.4` with packages specified in `requirements.txt` file.
-
 ## License
 
 The course has been prepared by [Piotr Pasza Storożenko](https://pstorozenko.github.io/) from [Appsilon](http://appsilon.com/).
