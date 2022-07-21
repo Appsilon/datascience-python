@@ -7,7 +7,7 @@ Welcome to the course _Introduction to Data Science in Python by Appsilon_!
 ## Target audience
 
 This course aims to introduce people that know how to code in Python into the Data Science world.
-In particular I show tricks and tips useful for STEM/economics students.
+In particular I show tricks and tips useful for STEM/economic students.
 One of secondary goals is to show students how use **free** tools that are **industry standards** at the same time instead of Matlab/Statistica/SAS and so on.
 
 ## Covered topics
