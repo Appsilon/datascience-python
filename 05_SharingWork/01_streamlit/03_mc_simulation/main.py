@@ -26,4 +26,4 @@ if st.button("Simulate!"):
     with st.spinner(text="Simulating!"):
         fig, A = simulation(n)
         st.pyplot(fig)
-        f"Calculated area of the function: {A.round(3)}"
+        f"Calculated area under the function: {A.round(3)}"
