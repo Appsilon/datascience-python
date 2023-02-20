@@ -5,7 +5,8 @@ author: "Piotr Pasza Storożenko@Appsilon"
 format: 
   revealjs:
     theme: [dark]
-    self-contained: true
+    embed-resources
+: true
 editor_options: 
   markdown: 
     wrap: 99
