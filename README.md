@@ -30,6 +30,13 @@ I suggest using `html` files, generated from `qmd` and `ipynb` with `quarto`.
 
 Guide to setup an environment included in the introduction presentation.
 
+tl;dr You can try 
+```
+conda create -n ds-course python=3.10
+conda activate ds-course
+pip install -r requirements.txt
+```
+
 ### Homeworks
 
 Each lecture has also some homework assignment.

@@ -1,3 +1,5 @@
+# to verify
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -5,13 +7,13 @@ import plotly.express as px
 st.config.dataFrameSerialization = "arrow"
 
 
-@st.cache
+@st.cache_data
 def load_data():
-    flights = pd.read_csv("../../data/flights/flights.csv", engine="pyarrow")
+    flights = pd.read_csv("../../../data/flights/flights.csv", engine="pyarrow")
     flights["DATE"] = pd.to_datetime(
         flights["YEAR"].astype(str) + "-" + flights["MONTH"].astype(str) + "-" + flights["DAY"].astype(str)
     )
-    airports = pd.read_csv("../../data/flights/airports.csv", engine="pyarrow")
+    airports = pd.read_csv("../../../data/flights/airports.csv", engine="pyarrow")
     return flights, airports
 
 
@@ -27,7 +29,11 @@ flights_lax = (
     flights.query("DESTINATION_AIRPORT == @airport_input")
     .groupby("ORIGIN_AIRPORT")
     .agg({"ARRIVAL_DELAY": ["mean", "count"]})
-    .reset_index()
+    .reset_index(col_level=1)
+)
+flights_lax.columns = flights_lax.columns.droplevel(0)
+flights_lax = (
+    flights_lax
     .merge(airports, left_on="ORIGIN_AIRPORT", right_on="IATA_CODE")
     # .loc[:, ["AIRPORT","ARRIVAL_DELAY", "Count"]]
 )
