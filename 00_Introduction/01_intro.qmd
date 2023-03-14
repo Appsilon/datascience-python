@@ -35,7 +35,7 @@ you can find more on my blog: [pstorozenko.github.io](https://pstorozenko.github
 
 ## Why this course?
 
-Through the years I got a lot of knowledge about `python`, `R`, `julia`, data science, machine learning, deep learningu, softer developemnt.
+Through the years I got a lot of knowledge about `python`, `R`, `julia`, data science, machine learning, deep learning, software development.
 
 Now I can share it with you!
 
