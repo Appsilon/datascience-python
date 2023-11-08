@@ -23,7 +23,7 @@ Machine Learning Engineer
 A bit:
 
 - ML guy
-- Physists
+- Physicist
 - Computer scientist
 - Mathematician
 
@@ -48,20 +48,20 @@ Now I can share it with you!
   - Easy to use and **efficient** tools to work with data
   - Made by software developers
 - Mathematicians
-  - Intuitive tools that support **reporoducible** experiments
+  - Intuitive tools that support **reproducible** experiments
   - _Ridiculously easy_ work with plots
-- Electronicians, mechanicians
+- Electrical and mechanical engineers
   - Great alternative to matlab
   - Easy to use
   - Simple plots and animations
 :::
 
 :::{.column}
-- Economic students
+- Economics students
   - Great alternative for spreadsheets
   - Set of **free**, open source tools
   - Uncomparable greater control of data when compared to MS Office, Tableau, PowerBI etc.
-- Physists, chemicians, biologists
+- Physicists, chemists, biologists
   - Substential relief from spreadsheets
   - Open-source software
   - Much easier to create, reproducible plots
@@ -71,7 +71,7 @@ Now I can share it with you!
 
 # Data Science
 
-## What's Sata Science?
+## What's Data Science?
 
 ![](images/datascience.png){fig-align="center"}
 
@@ -89,14 +89,14 @@ Source: [https://www.domo.com/learn/infographic/data-never-sleeps-9](https://www
 
 ## Explanation of various terms{.smaller}
 
-- Artificial Inteligence, AI --  an [umbrella term](https://en.wiktionary.org/wiki/umbrella_term) connceted to everything where the computer/system makes decisions based on a set of rules, on an algorithm.
+- Artificial Inteligence, AI --  an [umbrella term](https://en.wiktionary.org/wiki/umbrella_term) connected to everything where the computer/system makes decisions based on a set of rules, on an algorithm.
 - Data Science (DS) -- everything related to data, from collecting, through processing, up to displaying and using
-- Machine Learning, ML -- everyting related to creating/training models that are able to _learn_ rules based on provided data
+- Machine Learning, ML -- everything related to creating/training models that are able to _learn_ rules based on provided data
 - [Deep] Neural Networks, [D]NN -- subset of ML methods based on special class of models, so called neural networks. Their architecture (design) somehow resembles connections between biological neurons, hence the name.
 
 ## Who's a Data Scientist?
 
-Someone who simuntinesly:
+Someone who simultaneously:
 
 1. Discusses with so called _bussiness_ the topic of required solutions.
 2. Based on provided and collected data creates solutions using programming skills.
@@ -123,7 +123,7 @@ Source: [https://blog.dominodatalab.com/data-science-tools](https://blog.dominod
 
 # Course plan
 
-1. Introduction and `numpy` - working numbers
+1. Introduction and `numpy` - working with numbers
 2. `pandas` - working with data frames
 3. `matplotlib` and `plotly` - plotting data
 4. `scikit-learn` - introduction to machine learning
@@ -159,13 +159,13 @@ Source: [https://www.business-science.io/business/2019/06/27/data-science-workfl
 
 ## Anaconda{.smaller}
 
-Anaconda is a standard when it comes to managing python environemnts in data science/machine learning community.
+Anaconda is the standard when it comes to managing python environemnts in the data science/machine learning community.
 It allows to obtain a consistent environment among various systems.
 
 Why is it that important?
 
 Data scienctists often work on many projects at the same time.
-Each project might require different environment, with specific versions of python and other libraries.
+Each project might require a different environment, with specific versions of python and other libraries.
 
 This might be also a relief when working on different projects during studying!
 
@@ -183,7 +183,7 @@ If you received the following error message:
 ```
 ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
 ```
-you're in a wrong directory.
+you're in the wrong directory.
 
 In case of problems, check out the [official conda tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
@@ -191,11 +191,11 @@ In case of problems, check out the [official conda tutorial](https://docs.conda.
 
 Why [VS Code](https://code.visualstudio.com/#alt-downloads)?
 
-- Creat support for both python scripts and <u>jupyter notebooks</u>.
+- Great support for both python scripts and <u>jupyter notebooks</u>.
 - Automatically detects `conda` environments
 - Great support for working with remote machines through SSH (althogh we will not use this feature)
 - One tool to work with `python`, `R`, `julia`, `javascript`, `typescript` etc.
-- Above this all -- VS Code <u>is free</u>
+- Above all -- VS Code <u>is free</u>
 
 ## What to do after installing VS Code?
 
@@ -222,7 +222,7 @@ How to live, what to use?
 2. Works only for **a single** version of python
 3. Capable of installing **python packages only**
 4. Basic package versioning with `pip freeze`
-5. Pretty fast when doesn't have to build packages
+5. Pretty fast when it doesn't have to build packages
 
 ## `conda`{.smaller}
 
@@ -231,7 +231,7 @@ How to live, what to use?
 3. Is able to install **other software than python packages as well** (e.g. `R` or CUDA drivers)
 4. Basic package versioning with `conda list --export`
 5. Super slow for bigger environments
-6. Packages installed with conda can be shared across environments -- lower disk usage (sole PyTorch is ~1.7GB)
+6. Packages installed with conda can be shared across environments -- lower disk usage (just PyTorch is ~1.7GB)
 
 ## `pipenv`
 
@@ -249,9 +249,9 @@ conda activate my-env
 pip install ...
 ```
 
-If you need to install CUDA drivers then do it on environment creation `conda create -n my-env python cudatoolkit`.
+If you need to install CUDA drivers then do it during environment creation `conda create -n my-env python cudatoolkit`.
 
-After you install all packages, save in README file **python version**, e.g.,
+After you install all packages, save the **python version** in your README file e.g.,
 
 > Project created with python 3.10.4.
 
